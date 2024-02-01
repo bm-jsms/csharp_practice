@@ -2,17 +2,17 @@
 
 // program that calculates the area of ​​a rectangle
 
-double sidea;
-double sideb;
-double result;
+var sideA = 1.1;
+var sideB = 1.1;
+var result = 1.1;
 
 Console.WriteLine("\nCalculate the area of ​​a rectangle!!");
 
 Console.WriteLine("Insert value A: ");
-sidea = Convert.ToDouble(Console.ReadLine());
+sideA = Convert.ToDouble(Console.ReadLine());
 
 Console.WriteLine("Insert value B: ");
-sideb = Convert.ToDouble(Console.ReadLine());
+sideB = Convert.ToDouble(Console.ReadLine());
 
-result = sidea * sideb;
-Console.WriteLine("\nSide A: " + sidea + "\tSide B: " + sideb + "\nThe area of reactangle is: " + result);
+result = sideA * sideB;
+Console.WriteLine("\nSide A: " + sideA + "\tSide B: " + sideB + "\nThe area of reactangle is: " + result);
